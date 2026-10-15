@@ -7,6 +7,9 @@ A Chrome extension for the Betler back-office:
 - **Shortcuts bar on player pages:** **KYC**, **Add funds**, **Sessions**, **Transactions**.
 - Safety: Test funds only auto-clicks the drawer's Submit for allowlisted players (`@super.xyz` email or an ID in `allowCustomerIds`). Stuck round never auto-submits.
 
+## Environments
+Runs on the Betler back-office for **production**, **QA**, **Stage** and **Dev (dev01)**. To add another host (for example dev02), add its URL to `matches` in `extension/manifest.json`.
+
 ## Install (teammates)
 1. Download the latest zip from the **Releases** page and unzip it somewhere permanent.
 2. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked** and pick the unzipped folder (the one containing `manifest.json`).

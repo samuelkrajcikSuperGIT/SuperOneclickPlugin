@@ -2,6 +2,9 @@
 
 Newest first. The version matches `manifest.json`.
 
+## 0.11.0
+- Now also runs on the QA, Stage and Dev (dev01) Betler back-offices, not just production.
+
 ## 0.10.3
 - Updated the extension description and README to list all current features.
 - Code moved to the SuperOneclickPlugin GitHub repo; releases are built as a zip automatically from version tags.

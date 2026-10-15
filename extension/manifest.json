@@ -1,12 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Test Funds Autofill",
-  "version": "0.10.3",
+  "version": "0.11.0",
   "description": "Back-office helper: one-click Test funds / Stuck round adjustments with auto-filled confirm popup and currency badge, plus player-page shortcuts (KYC, Add funds, Sessions, Transactions).",
   "content_scripts": [
     {
       "matches": [
-        "https://bacoff.services.production.betler.superbet.com/*"
+        "https://bacoff.services.production.betler.superbet.com/*",
+        "https://bacoff.services.qa.betler.superbet.com/*",
+        "https://bacoff.services.stage.betler.superbet.com/*",
+        "https://bacoff.services.dev01.betler.superbet.com/*"
       ],
       "js": [
         "content.js"
